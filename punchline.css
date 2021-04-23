@@ -1,0 +1,42 @@
+
+body {
+
+    background-color: black;
+    width: 100vw;  
+    height: 100vh;
+}
+
+
+
+.troll {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px; 
+    white-space: nowrap;
+    
+    
+}
+
+.game {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+  
+ 
